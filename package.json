@@ -12,9 +12,7 @@
         "url": "https://github.com/akarachen/biome-config"
     },
     "homepage": "https://github.com/akarachen/biome-config#readme",
-    "keywords": [
-        "biome"
-    ],
+    "keywords": ["biome"],
     "author": "AkaraChen",
     "license": "ISC",
     "packageManager": "pnpm@9.6.0",
@@ -25,8 +23,6 @@
         "nypm": "^0.3.9",
         "octokit": "^4.0.2"
     },
-    "files": [
-        "./index.js"
-    ],
+    "files": ["./index.js"],
     "bin": "./index.js"
 }

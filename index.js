@@ -19,7 +19,7 @@ if (fs.existsSync(path.join(cwd, 'biome.json'))) {
 }
 
 consola.info('Ensuring biome is installed...');
-await ensureDependencyInstalled('@biomejs/biome');
+await ensureDependencyInstalled('@biomejs/biome', { dev: true });
 
 consola.info('Fetching biome.json from GitHub...');
 const octokit = new Octokit();
