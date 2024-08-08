@@ -1,6 +1,6 @@
 {
     "name": "@akrc/biome",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "module",
     "description": "A script for installing biome on current project",
     "scripts": {
@@ -12,7 +12,9 @@
         "url": "https://github.com/akarachen/biome-config"
     },
     "homepage": "https://github.com/akarachen/biome-config#readme",
-    "keywords": ["biome"],
+    "keywords": [
+        "biome"
+    ],
     "author": "AkaraChen",
     "license": "ISC",
     "packageManager": "pnpm@9.6.0",
@@ -24,7 +26,7 @@
         "octokit": "^4.0.2"
     },
     "files": [
-      "./index.js"
+        "./index.js"
     ],
     "bin": "./index.js"
 }
