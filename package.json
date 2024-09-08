@@ -1,6 +1,6 @@
 {
     "name": "@akrc/biome",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "module",
     "description": "A script for installing biome on current project",
     "scripts": {
